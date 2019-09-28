@@ -1,30 +1,105 @@
 <!doctype html>
-<html lang="pt-br">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<html lang="pt-br" class="h-100">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mannuel Victor Limeira">
 
-    <title>Site Nordoces Alimentos</title>
-  </head>
-  <body>
-      <h1>Estamos em construção!</h1>
-      <h2>Nordoces Alimentos.</h2>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+
+  <title>Site Nordoces Alimentos</title>
+
+  <link rel="stylesheet" href="custom.css" />
+</head>
+
+<body class="d-flex flex-column h-100">
+
+  <header>
+    <nav class="navbar navbar-light bg-light mb-3">
+      <a class="navbar-brand mx-auto" href="#">
+        <span id="brand-name">Nordoces</span>
+      </a>
+    </nav>
+  </header>
+
+  <main role="main" class="flex-shrink-0">
+    <div class="container">
+      <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/baking-bg.jpg"
+                height="400" class="img-carousel d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="carousel-caption-h1">Os melhores ingredientes!</h1>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 offset-md-1 mt-5">
+          <div class="row mt-5">
+            <h1 class="mx-auto">Peça seu BOLOKO no seu celular</h1>
+          </div>
+          <div class="row mt-5">
+            <div class="col">
+                <button type="button" class="btn btn-success btn-lg btn-block">Whatsapp</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary btn-lg btn-block">Telegram</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="images/top-iphone-tilted.webp" height="400" >
+        </div>
+      </div>
       <div>
         <h3>Contatos:</h3>
         <p>E-mail: <a href="mailto:nordoces@gmail.com">nordoces@gmail.com</a></p>
         <p>Telefone: <a href="callto:084988156078">(84) 98815-6078</a></p>
         <p>Whatsapp: <a href="https://wa.me/5584988156078">Chamar no Whatsapp.</a></p>
       </div>
-      <footer>nordoces 2019</footer>
+  </main>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+  <footer class="footer mt-auto py-3">
+    <div class="container text-center">
+      <span class="text-muted"><small>Nordoces 2019.</small></span>
+    </div>
+  </footer>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

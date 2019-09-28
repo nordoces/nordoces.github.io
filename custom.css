@@ -1,0 +1,34 @@
+body {
+    background-color: hsl(15, 86%, 98%);
+    font-family: 'Noto Sans', Helvetica, sans-serif;
+    color: hsl(0, 0%, 24%);
+}
+
+h1, h2, h5 {
+    font-family: 'Fjalla One', Helvetica, sans-serif;
+}
+
+#brand-name {
+    color: hsl(0, 0%, 24%);
+}
+
+.navbar {
+    height: 80px;
+    background: #F2994A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.img-carousel {
+    object-fit: cover;
+    opacity: 0.85;
+}
+
+.carousel-caption {
+    color: hsl(28, 87%, 45%);
+    text-shadow: 0 13.36px 8.896px hsl(0, 0%, 64%),0 -2px 1px hsl(28, 87%, 65%);
+}
+
+.carousel-caption-h1 {
+    font-size: 3.5rem;
+}
