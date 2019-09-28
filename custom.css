@@ -4,12 +4,17 @@ body {
     color: hsl(0, 0%, 24%);
 }
 
+.main-color {
+    color: hsl(28, 87%, 65%);
+}
+
 h1, h2, h5 {
     font-family: 'Fjalla One', Helvetica, sans-serif;
 }
 
 #brand-name {
-    color: hsl(0, 0%, 24%);
+    font-size: 2rem;
+    color: hsl(0, 0%, 95%);
 }
 
 .navbar {
@@ -25,10 +30,30 @@ h1, h2, h5 {
 }
 
 .carousel-caption {
-    color: hsl(28, 87%, 45%);
-    text-shadow: 0 13.36px 8.896px hsl(0, 0%, 64%),0 -2px 1px hsl(28, 87%, 65%);
+    color: hsl(0, 0%, 98%);
+    text-shadow: 2px 2px 19px rgba(0, 0, 0, 0.16);
 }
 
 .carousel-caption-h1 {
+    border-radius: 20px;
+    background-color: hsla(0, 0%, 100%, 0.1);
+    font-size: 3.0rem;
+}
+
+.carousel-caption-h1-sub {
     font-size: 3.5rem;
+}
+
+.btn-telegram, .btn-whatsapp {
+    box-shadow: 2px 2px 19px rgba(0, 0, 0, 0.16);
+}
+
+.purchase-contact {
+    background-color: hsl(28, 87%, 65%);
+    color: hsl(0, 0%, 95%);
+    box-shadow: 2px 2px 19px rgba(0, 0, 0, 0.16);
+}
+
+.purchase-contact-card-title {
+    font-size: 3rem;
 }
