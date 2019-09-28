@@ -9,34 +9,37 @@ body {
 }
 
 h1, h2, h5 {
-    font-family: 'Fjalla One', Helvetica, sans-serif;
+    font-family: 'Fira Sans', Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: 900;
 }
 
 #brand-name {
     font-size: 2rem;
+    font-weight: 900;
     color: hsl(0, 0%, 95%);
 }
 
 .navbar {
     height: 80px;
-    background: #F2994A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient(to right, #f2c94c, #f3c04a, #f4b749, #f4ae49, #f4a549, #f4a549, #f4a549, #f4a549, #f4ae49, #f4b749, #f3c04a, #f2c94c);
 }
 
 .img-carousel {
     object-fit: cover;
-    opacity: 0.85;
+    opacity: 1;
 }
 
 .carousel-caption {
-    color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 24%);
     text-shadow: 2px 2px 19px rgba(0, 0, 0, 0.16);
 }
 
 .carousel-caption-h1 {
-    border-radius: 20px;
-    background-color: hsla(0, 0%, 100%, 0.1);
+    border-radius: 5px;
+    background-color: hsla(0, 0%, 100%, 0.8);
     font-size: 3.0rem;
 }
 
@@ -44,14 +47,21 @@ h1, h2, h5 {
     font-size: 3.5rem;
 }
 
+.main-price {
+    font-size: 2.5rem;
+}
+
 .btn-telegram, .btn-whatsapp {
     box-shadow: 2px 2px 19px rgba(0, 0, 0, 0.16);
 }
 
 .purchase-contact {
-    background-color: hsl(28, 87%, 65%);
+    /*background-color: hsl(28, 87%, 65%);*/
+    background-image: linear-gradient(to right, #f2994a, #f3a249, #f4ab48, #f4b448, #f4bd49, #f4bd49, #f4bd49, #f4bd49, #f4b448, #f4ab48, #f3a249, #f2994a);
     color: hsl(0, 0%, 95%);
-    box-shadow: 2px 2px 19px rgba(0, 0, 0, 0.16);
+    box-shadow: 2px 2px 19px rgba(0, 0, 0, 0.15);
+    font-weight: bold;
+    text-shadow: 2px 2px 2px hsl(0, 0%, 65%);
 }
 
 .purchase-contact-card-title {
